@@ -1,0 +1,79 @@
+INFO:     127.0.0.1:62585 - "GET /api/v1/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62586 - "POST /api/v1/auth/login HTTP/1.1" 401 Unauthorized
+INFO:     127.0.0.1:64707 - "POST /api/v1/auth/register HTTP/1.1" 201 Created
+INFO:     127.0.0.1:64708 - "POST /api/v1/auth/login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54617 - "POST /api/v1/auth/register HTTP/1.1" 201 Created
+INFO:     127.0.0.1:54618 - "POST /api/v1/auth/login HTTP/1.1" 422 Unprocessable Entity
+INFO:     127.0.0.1:53380 - "POST /api/v1/auth/login HTTP/1.1" 422 Unprocessable Entity
+INFO:     127.0.0.1:60526 - "POST /api/v1/auth/login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54203 - "OPTIONS /api/v1/auth/login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54203 - "POST /api/v1/auth/login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61796 - "OPTIONS /api/v1/auth/login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61796 - "POST /api/v1/auth/login HTTP/1.1" 401 Unauthorized
+INFO:     127.0.0.1:58731 - "POST /api/v1/auth/login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62799 - "OPTIONS /api/v1/auth/login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62799 - "POST /api/v1/auth/login HTTP/1.1" 401 Unauthorized
+INFO:     127.0.0.1:52569 - "POST /api/v1/auth/login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54587 - "GET /api/v1/health-records?device_id=1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64140 - "GET /api/v1/locations/current HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63101 - "GET /api/v1/readings/current HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55095 - "GET /api/v1/environment/current HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51248 - "OPTIONS /api/v1/health-records HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51248 - "POST /api/v1/health-records HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:51248 - "POST /api/v1/health-records HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:56425 - "OPTIONS /api/v1/auth/login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56425 - "POST /api/v1/auth/login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56425 - "GET /api/v1/health-records?device_id=1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65023 - "GET /api/v1/readings/current HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51480 - "GET /api/v1/locations/current HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60154 - "GET /api/v1/environment/current HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63083 - "OPTIONS /api/v1/auth/login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63083 - "POST /api/v1/auth/login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50612 - "GET /api/v1/health-records?device_id=1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56552 - "GET /api/v1/locations/current HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54247 - "GET /api/v1/readings/current HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51202 - "GET /api/v1/environment/current HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51279 - "GET /docs HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52010 - "OPTIONS /api/v1/auth/login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52010 - "POST /api/v1/auth/login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58015 - "GET /api/v1/health-records?device_id=1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58015 - "GET /api/v1/readings/current HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64749 - "GET /api/v1/locations/current HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52286 - "GET /api/v1/environment/current HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52286 - "GET /api/v1/readings/current HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58015 - "GET /api/v1/locations/current HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64749 - "GET /api/v1/environment/current HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59017 - "OPTIONS /api/v1/health-records/2 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59017 - "DELETE /api/v1/health-records/2 HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:59017 - "DELETE /api/v1/health-records/2 HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:58437 - "DELETE /api/v1/health-records/2 HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:62372 - "OPTIONS /api/v1/auth/login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62372 - "POST /api/v1/auth/login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62372 - "GET /api/v1/health-records?device_id=1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52219 - "GET /api/v1/readings/current HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57932 - "GET /api/v1/locations/current HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64570 - "GET /api/v1/environment/current HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51911 - "GET /api/v1/locations/current HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54503 - "GET /api/v1/readings/current HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60360 - "GET /api/v1/environment/current HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60360 - "GET /api/v1/readings/current HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51911 - "GET /api/v1/locations/current HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54503 - "GET /api/v1/environment/current HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59637 - "OPTIONS /api/v1/auth/login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59637 - "POST /api/v1/auth/login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51551 - "GET /api/v1/health-records?device_id=1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61185 - "GET /api/v1/readings/current HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53987 - "GET /api/v1/locations/current HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56520 - "GET /api/v1/environment/current HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61919 - "OPTIONS /api/v1/auth/login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61919 - "POST /api/v1/auth/login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61919 - "GET /api/v1/health-records?device_id=1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60352 - "GET /api/v1/readings/current HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53095 - "GET /api/v1/locations/current HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57923 - "GET /api/v1/environment/current HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60015 - "OPTIONS /api/v1/auth/login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60015 - "POST /api/v1/auth/login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60015 - "GET /api/v1/health-records?device_id=1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60772 - "GET /api/v1/readings/current HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53881 - "GET /api/v1/locations/current HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52382 - "GET /api/v1/environment/current HTTP/1.1" 200 OK

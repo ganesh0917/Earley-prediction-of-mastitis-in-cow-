@@ -1,0 +1,14 @@
+INFO:     Will watch for changes in these directories: ['C:\\Users\\GANESHRAM\\Desktop\\originw2745']
+INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+INFO:     Started reloader process [12888] using WatchFiles
+INFO:     Started server process [13652]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchFiles detected changes in 'init_db.py', 'app\db.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [13652]
+INFO:     Started server process [21312]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.

@@ -1,0 +1,6 @@
+INFO:     127.0.0.1:64926 - "GET /api/v1/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61952 - "POST /api/v1/auth/login HTTP/1.1" 500 Internal Server Error
+INFO:     127.0.0.1:50701 - "OPTIONS /api/v1/auth/login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50701 - "POST /api/v1/auth/login HTTP/1.1" 500 Internal Server Error
+INFO:     127.0.0.1:62584 - "GET /api/v1/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62584 - "GET /favicon.ico HTTP/1.1" 404 Not Found

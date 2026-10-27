@@ -1,0 +1,37 @@
+services:
+  api:
+    build: .
+    ports: ["8000:8000"]
+    env_file: .env
+    environment:
+      MQTT_BROKER_HOST: mqtt
+      MQTT_BROKER_PORT: 1883
+    depends_on:
+      db:
+        condition: service_healthy
+      mqtt:
+        condition: service_started
+  db:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_DB: originw2745
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+    ports: ["5432:5432"]
+    volumes: [postgres_data:/var/lib/postgresql/data]
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres -d originw2745"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+  mqtt:
+    image: eclipse-mosquitto:2
+    ports: ["1883:1883"]
+    volumes:
+      - ./mosquitto/config/mosquitto.conf:/mosquitto/config/mosquitto.conf:ro
+      - mosquitto_data:/mosquitto/data
+      - mosquitto_log:/mosquitto/log
+volumes:
+  postgres_data:
+  mosquitto_data:
+  mosquitto_log:

@@ -1,0 +1,10 @@
+
+> originw2745-iot-dashboard@1.0.0 dev
+> vite --host 127.0.0.1
+
+11:28:57 pm [vite] (client) Re-optimizing dependencies because vite config has changed
+
+  VITE v8.2.2  ready in 670 ms
+
+  ➜  Local:   http://127.0.0.1:5173/
+11:28:59 pm [vite] (client) [optimizer] bundling dependencies...
